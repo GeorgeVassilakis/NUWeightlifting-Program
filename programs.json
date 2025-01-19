@@ -1,0 +1,137 @@
+{
+  "weekOf": "1/12",
+  "programs": {
+    "rookies": {
+      "weekNumber": "Week 3",
+      "totalVolume": "200 (60sn 60cj 60sq 20pu)",
+      "coachesNotes": [
+        "Add accessories as you see fit"
+      ],
+      "athleteNotes": [
+        "Lower volume / deload",
+        "Intensities creep up on Day 3"
+      ],
+      "days": [
+        {
+          "name": "Day 1",
+          "volume": "84 (21sn 21cj 30sq 12pu)",
+          "exercises": [
+            {
+              "name": "Power Snatch",
+              "sets": ["60(2x3)", "65(2x3)", "70(2x3)", "75x3"]
+            },
+            {
+              "name": "PC+PJ",
+              "sets": ["60(2x3)", "65x3", "70x3", "75x3", "80(2x3)"]
+            },
+            {
+              "name": "Back Squat",
+              "sets": ["60x7", "65(2x5)", "70x4", "75x3", "80(2x3)"]
+            },
+            {
+              "name": "Snatch Pull / Panda Pull",
+              "sets": ["85(2x3)", "90(2x3)"]
+            },
+            {
+              "name": "Pullups",
+              "sets": ["5x5-8"]
+            },
+            {
+              "name": "Accessories",
+              "sets": [
+                "4 rounds:",
+                "Lying biceps curls x8-12",
+                "Wrist Curls x15-18",
+                "Abalakov Jump x10",
+                "Planks + Side Planks 3x1 minute"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Day 2",
+          "volume": "52 (18sn 18cj 8sq 8pu)",
+          "exercises": [
+            {
+              "name": "Snatch",
+              "sets": ["60x3", "65(2x3)", "70x3", "75x3", "80x3"]
+            },
+            {
+              "name": "C&J",
+              "sets": ["55x3", "60(2x3)", "65x3", "70x3", "75x3"]
+            },
+            {
+              "name": "Front Squat",
+              "sets": ["75x4", "80x4"]
+            },
+            {
+              "name": "Snatch Pull / Panda Pull",
+              "sets": ["85(2x2)", "90(2x2)"]
+            },
+            {
+              "name": "Clean Grip BN Press",
+              "sets": ["5x5-8"]
+            },
+            {
+              "name": "Accessories",
+              "sets": [
+                "4 rounds:",
+                "Dumbbell Laterals x8-12",
+                "Weighted Single Leg calf raises x15-18",
+                "Weighted Reverse Bench Plank 3x1 minute"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "veterans": {
+      "weekNumber": "Week 6",
+      "totalVolume": "241 (72sn 72cj 72sq 24pu)",
+      "coachesNotes": [
+        "Add accessories as desired, but keep in mind this is a deload week, so not many if at all"
+      ],
+      "athleteNotes": [
+        "Lower volume / minor deload",
+        "Heavy lifts on Day 4"
+      ],
+      "days": [
+        {
+          "name": "Day 1",
+          "volume": "84 (18sn 18cj 36sq 12pu)",
+          "exercises": [
+            {
+              "name": "PS",
+              "sets": ["65x3", "70x3", "75x3", "80x3", "83(2x3)"]
+            },
+            {
+              "name": "PC+PJ",
+              "sets": ["60x3", "65x3", "70x3", "75x3", "80(2x3)"]
+            },
+            {
+              "name": "Back Squat",
+              "sets": ["60(2x6)", "65(2x5)", "70x5", "75x3", "80x3", "83(3x2)"]
+            },
+            {
+              "name": "Snatch Pull / Panda Pull",
+              "sets": ["85(2x3)", "90(2x3)"]
+            },
+            {
+              "name": "Pullups",
+              "sets": ["5x5-8"]
+            },
+            {
+              "name": "Accessories",
+              "sets": [
+                "4 rounds:",
+                "Lying biceps curls x8-12",
+                "Wrist curls x15-18",
+                "Weighted Plank 3x1 minute"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
