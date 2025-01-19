@@ -1,4 +1,4 @@
-const { useState, useEffect } = React;
+import { useState, useEffect } from 'react'
 
 const WeightliftingProgram = () => {
   const [programType, setProgramType] = useState('rookies');
@@ -8,7 +8,7 @@ const WeightliftingProgram = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await fetch('programs.json');
+        const response = await fetch('/NUWeightlifting-Program/programs.json');
         const data = await response.json();
         setProgramData(data);
         setLoading(false);
@@ -145,8 +145,4 @@ const WeightliftingProgram = () => {
   );
 };
 
-// Render the app
-window.addEventListener('load', () => {
-  const root = ReactDOM.createRoot(document.getElementById('root'));
-  root.render(<WeightliftingProgram />);
-});
+export default WeightliftingProgram

@@ -1,0 +1,14 @@
+prefix=/home/localwsl/anaconda3/envs/general
+exec_prefix=/home/localwsl/anaconda3/envs/general
+libdir=/home/localwsl/anaconda3/envs/general/lib
+includedir=/home/localwsl/anaconda3/envs/general/include
+
+Name: FreeType 2
+URL: https://freetype.org
+Description: A free, high-quality, and portable font engine.
+Version: 24.3.18
+Requires: 
+Requires.private: zlib, libpng
+Libs: -L/home/localwsl/anaconda3/envs/general/lib -lfreetype
+Libs.private: 
+Cflags: -I${includedir}/freetype2

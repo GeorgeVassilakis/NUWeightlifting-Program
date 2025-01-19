@@ -1,0 +1,580 @@
+{
+  "build": "pyhd8ed1ab_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "numpy >=1.25",
+    "python >=3.8",
+    "scipy >=1.11"
+  ],
+  "extracted_package_dir": "/home/localwsl/anaconda3/pkgs/autograd-1.7.0-pyhd8ed1ab_0",
+  "files": [
+    "lib/python3.12/site-packages/autograd-1.7.0.dist-info/INSTALLER",
+    "lib/python3.12/site-packages/autograd-1.7.0.dist-info/METADATA",
+    "lib/python3.12/site-packages/autograd-1.7.0.dist-info/RECORD",
+    "lib/python3.12/site-packages/autograd-1.7.0.dist-info/REQUESTED",
+    "lib/python3.12/site-packages/autograd-1.7.0.dist-info/WHEEL",
+    "lib/python3.12/site-packages/autograd-1.7.0.dist-info/direct_url.json",
+    "lib/python3.12/site-packages/autograd/__init__.py",
+    "lib/python3.12/site-packages/autograd/builtins.py",
+    "lib/python3.12/site-packages/autograd/core.py",
+    "lib/python3.12/site-packages/autograd/differential_operators.py",
+    "lib/python3.12/site-packages/autograd/extend.py",
+    "lib/python3.12/site-packages/autograd/misc/__init__.py",
+    "lib/python3.12/site-packages/autograd/misc/fixed_points.py",
+    "lib/python3.12/site-packages/autograd/misc/flatten.py",
+    "lib/python3.12/site-packages/autograd/misc/optimizers.py",
+    "lib/python3.12/site-packages/autograd/misc/tracers.py",
+    "lib/python3.12/site-packages/autograd/numpy/__init__.py",
+    "lib/python3.12/site-packages/autograd/numpy/fft.py",
+    "lib/python3.12/site-packages/autograd/numpy/linalg.py",
+    "lib/python3.12/site-packages/autograd/numpy/numpy_boxes.py",
+    "lib/python3.12/site-packages/autograd/numpy/numpy_jvps.py",
+    "lib/python3.12/site-packages/autograd/numpy/numpy_vjps.py",
+    "lib/python3.12/site-packages/autograd/numpy/numpy_vspaces.py",
+    "lib/python3.12/site-packages/autograd/numpy/numpy_wrapper.py",
+    "lib/python3.12/site-packages/autograd/numpy/random.py",
+    "lib/python3.12/site-packages/autograd/scipy/__init__.py",
+    "lib/python3.12/site-packages/autograd/scipy/integrate.py",
+    "lib/python3.12/site-packages/autograd/scipy/linalg.py",
+    "lib/python3.12/site-packages/autograd/scipy/misc.py",
+    "lib/python3.12/site-packages/autograd/scipy/signal.py",
+    "lib/python3.12/site-packages/autograd/scipy/special.py",
+    "lib/python3.12/site-packages/autograd/scipy/stats/__init__.py",
+    "lib/python3.12/site-packages/autograd/scipy/stats/beta.py",
+    "lib/python3.12/site-packages/autograd/scipy/stats/chi2.py",
+    "lib/python3.12/site-packages/autograd/scipy/stats/dirichlet.py",
+    "lib/python3.12/site-packages/autograd/scipy/stats/gamma.py",
+    "lib/python3.12/site-packages/autograd/scipy/stats/multivariate_normal.py",
+    "lib/python3.12/site-packages/autograd/scipy/stats/norm.py",
+    "lib/python3.12/site-packages/autograd/scipy/stats/poisson.py",
+    "lib/python3.12/site-packages/autograd/scipy/stats/t.py",
+    "lib/python3.12/site-packages/autograd/test_util.py",
+    "lib/python3.12/site-packages/autograd/tracer.py",
+    "lib/python3.12/site-packages/autograd/util.py",
+    "lib/python3.12/site-packages/autograd/wrap_util.py",
+    "lib/python3.12/site-packages/autograd/__pycache__/__init__.cpython-312.pyc",
+    "lib/python3.12/site-packages/autograd/__pycache__/builtins.cpython-312.pyc",
+    "lib/python3.12/site-packages/autograd/__pycache__/core.cpython-312.pyc",
+    "lib/python3.12/site-packages/autograd/__pycache__/differential_operators.cpython-312.pyc",
+    "lib/python3.12/site-packages/autograd/__pycache__/extend.cpython-312.pyc",
+    "lib/python3.12/site-packages/autograd/misc/__pycache__/__init__.cpython-312.pyc",
+    "lib/python3.12/site-packages/autograd/misc/__pycache__/fixed_points.cpython-312.pyc",
+    "lib/python3.12/site-packages/autograd/misc/__pycache__/flatten.cpython-312.pyc",
+    "lib/python3.12/site-packages/autograd/misc/__pycache__/optimizers.cpython-312.pyc",
+    "lib/python3.12/site-packages/autograd/misc/__pycache__/tracers.cpython-312.pyc",
+    "lib/python3.12/site-packages/autograd/numpy/__pycache__/__init__.cpython-312.pyc",
+    "lib/python3.12/site-packages/autograd/numpy/__pycache__/fft.cpython-312.pyc",
+    "lib/python3.12/site-packages/autograd/numpy/__pycache__/linalg.cpython-312.pyc",
+    "lib/python3.12/site-packages/autograd/numpy/__pycache__/numpy_boxes.cpython-312.pyc",
+    "lib/python3.12/site-packages/autograd/numpy/__pycache__/numpy_jvps.cpython-312.pyc",
+    "lib/python3.12/site-packages/autograd/numpy/__pycache__/numpy_vjps.cpython-312.pyc",
+    "lib/python3.12/site-packages/autograd/numpy/__pycache__/numpy_vspaces.cpython-312.pyc",
+    "lib/python3.12/site-packages/autograd/numpy/__pycache__/numpy_wrapper.cpython-312.pyc",
+    "lib/python3.12/site-packages/autograd/numpy/__pycache__/random.cpython-312.pyc",
+    "lib/python3.12/site-packages/autograd/scipy/__pycache__/__init__.cpython-312.pyc",
+    "lib/python3.12/site-packages/autograd/scipy/__pycache__/integrate.cpython-312.pyc",
+    "lib/python3.12/site-packages/autograd/scipy/__pycache__/linalg.cpython-312.pyc",
+    "lib/python3.12/site-packages/autograd/scipy/__pycache__/misc.cpython-312.pyc",
+    "lib/python3.12/site-packages/autograd/scipy/__pycache__/signal.cpython-312.pyc",
+    "lib/python3.12/site-packages/autograd/scipy/__pycache__/special.cpython-312.pyc",
+    "lib/python3.12/site-packages/autograd/scipy/stats/__pycache__/__init__.cpython-312.pyc",
+    "lib/python3.12/site-packages/autograd/scipy/stats/__pycache__/beta.cpython-312.pyc",
+    "lib/python3.12/site-packages/autograd/scipy/stats/__pycache__/chi2.cpython-312.pyc",
+    "lib/python3.12/site-packages/autograd/scipy/stats/__pycache__/dirichlet.cpython-312.pyc",
+    "lib/python3.12/site-packages/autograd/scipy/stats/__pycache__/gamma.cpython-312.pyc",
+    "lib/python3.12/site-packages/autograd/scipy/stats/__pycache__/multivariate_normal.cpython-312.pyc",
+    "lib/python3.12/site-packages/autograd/scipy/stats/__pycache__/norm.cpython-312.pyc",
+    "lib/python3.12/site-packages/autograd/scipy/stats/__pycache__/poisson.cpython-312.pyc",
+    "lib/python3.12/site-packages/autograd/scipy/stats/__pycache__/t.cpython-312.pyc",
+    "lib/python3.12/site-packages/autograd/__pycache__/test_util.cpython-312.pyc",
+    "lib/python3.12/site-packages/autograd/__pycache__/tracer.cpython-312.pyc",
+    "lib/python3.12/site-packages/autograd/__pycache__/util.cpython-312.pyc",
+    "lib/python3.12/site-packages/autograd/__pycache__/wrap_util.cpython-312.pyc"
+  ],
+  "fn": "autograd-1.7.0-pyhd8ed1ab_0.conda",
+  "license": "MIT",
+  "license_family": "MIT",
+  "link": {
+    "source": "/home/localwsl/anaconda3/pkgs/autograd-1.7.0-pyhd8ed1ab_0",
+    "type": 1
+  },
+  "md5": "3d0c2341f515348d7fdc4f6d5f448446",
+  "name": "autograd",
+  "noarch": "python",
+  "package_tarball_full_path": "/home/localwsl/anaconda3/pkgs/autograd-1.7.0-pyhd8ed1ab_0.conda",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/autograd-1.7.0.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/autograd-1.7.0.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "6c9476e82005b820e640c265ccabf9fc5614533eda232d9c74930459e70623e5",
+        "sha256_in_prefix": "6c9476e82005b820e640c265ccabf9fc5614533eda232d9c74930459e70623e5",
+        "size_in_bytes": 7489
+      },
+      {
+        "_path": "site-packages/autograd-1.7.0.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "59dd12bdc3161528b3e2e2d52eeba839b247f7e02a1f271ecc893e6f39e1af56",
+        "sha256_in_prefix": "59dd12bdc3161528b3e2e2d52eeba839b247f7e02a1f271ecc893e6f39e1af56",
+        "size_in_bytes": 5743
+      },
+      {
+        "_path": "site-packages/autograd-1.7.0.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/autograd-1.7.0.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "d7215d7625cc9af60aed0613aad44db57eba589d0ccfc3d8122114a0e514c516",
+        "sha256_in_prefix": "d7215d7625cc9af60aed0613aad44db57eba589d0ccfc3d8122114a0e514c516",
+        "size_in_bytes": 87
+      },
+      {
+        "_path": "site-packages/autograd-1.7.0.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "dda8102396a810b876c3cc554e28af68538967fbbef717e395be06608cc2b3b4",
+        "sha256_in_prefix": "dda8102396a810b876c3cc554e28af68538967fbbef717e395be06608cc2b3b4",
+        "size_in_bytes": 104
+      },
+      {
+        "_path": "site-packages/autograd/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "041049813428a5eb14d4e6bf66f6a6a463989706019d9667b69da6610d6ebabc",
+        "sha256_in_prefix": "041049813428a5eb14d4e6bf66f6a6a463989706019d9667b69da6610d6ebabc",
+        "size_in_bytes": 504
+      },
+      {
+        "_path": "site-packages/autograd/builtins.py",
+        "path_type": "hardlink",
+        "sha256": "51505c4d71fc6d896d4982e4e7abc6ee05f5ae56e4a39989c5d1a2c5ef704413",
+        "sha256_in_prefix": "51505c4d71fc6d896d4982e4e7abc6ee05f5ae56e4a39989c5d1a2c5ef704413",
+        "size_in_bytes": 6260
+      },
+      {
+        "_path": "site-packages/autograd/core.py",
+        "path_type": "hardlink",
+        "sha256": "f557c2d88d2c10e2cd326c471ad4b8c127b2406deea7137b66bf64fcfab137ef",
+        "sha256_in_prefix": "f557c2d88d2c10e2cd326c471ad4b8c127b2406deea7137b66bf64fcfab137ef",
+        "size_in_bytes": 12235
+      },
+      {
+        "_path": "site-packages/autograd/differential_operators.py",
+        "path_type": "hardlink",
+        "sha256": "c7a090b8facfd893a9842646cf270a263ea5a5900de4064af699a8a43b5f233c",
+        "sha256_in_prefix": "c7a090b8facfd893a9842646cf270a263ea5a5900de4064af699a8a43b5f233c",
+        "size_in_bytes": 8515
+      },
+      {
+        "_path": "site-packages/autograd/extend.py",
+        "path_type": "hardlink",
+        "sha256": "1ce941781339ebacdc73cde90b3e7c7d83070366f720034215df4a0bc5b55439",
+        "sha256_in_prefix": "1ce941781339ebacdc73cde90b3e7c7d83070366f720034215df4a0bc5b55439",
+        "size_in_bytes": 304
+      },
+      {
+        "_path": "site-packages/autograd/misc/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "95d952a92296a4eb12bb98838f7267feb67cb119210876a36ebd0b7ddd569838",
+        "sha256_in_prefix": "95d952a92296a4eb12bb98838f7267feb67cb119210876a36ebd0b7ddd569838",
+        "size_in_bytes": 62
+      },
+      {
+        "_path": "site-packages/autograd/misc/fixed_points.py",
+        "path_type": "hardlink",
+        "sha256": "e75a174679de53d2694041ea097d8cc1a6451bb39c71ca8f7ca4ea2ccb9d4029",
+        "sha256_in_prefix": "e75a174679de53d2694041ea097d8cc1a6451bb39c71ca8f7ca4ea2ccb9d4029",
+        "size_in_bytes": 771
+      },
+      {
+        "_path": "site-packages/autograd/misc/flatten.py",
+        "path_type": "hardlink",
+        "sha256": "38b1ec6b37764b4bedd83006f6f7edb0ab161db2165dc7589a5bd1d594214f2d",
+        "sha256_in_prefix": "38b1ec6b37764b4bedd83006f6f7edb0ab161db2165dc7589a5bd1d594214f2d",
+        "size_in_bytes": 1120
+      },
+      {
+        "_path": "site-packages/autograd/misc/optimizers.py",
+        "path_type": "hardlink",
+        "sha256": "77fe46c703120c26ffdd11dab53b1425988ff9910fc25f56c4accf2618551f12",
+        "sha256_in_prefix": "77fe46c703120c26ffdd11dab53b1425988ff9910fc25f56c4accf2618551f12",
+        "size_in_bytes": 2757
+      },
+      {
+        "_path": "site-packages/autograd/misc/tracers.py",
+        "path_type": "hardlink",
+        "sha256": "715c3159b60aeb057a86a4a52361f976aa3ab28a8bbc46e2ce9ac8f2e646f581",
+        "sha256_in_prefix": "715c3159b60aeb057a86a4a52361f976aa3ab28a8bbc46e2ce9ac8f2e646f581",
+        "size_in_bytes": 2200
+      },
+      {
+        "_path": "site-packages/autograd/numpy/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "0b6b50017708711913660f13793a4860af3ddffc818bfc367ea808e064ce94eb",
+        "sha256_in_prefix": "0b6b50017708711913660f13793a4860af3ddffc818bfc367ea808e064ce94eb",
+        "size_in_bytes": 232
+      },
+      {
+        "_path": "site-packages/autograd/numpy/fft.py",
+        "path_type": "hardlink",
+        "sha256": "5f404c6a236f7f529d8610c71ce4cea148882c38399b507b2924b73947e59d9c",
+        "sha256_in_prefix": "5f404c6a236f7f529d8610c71ce4cea148882c38399b507b2924b73947e59d9c",
+        "size_in_bytes": 5250
+      },
+      {
+        "_path": "site-packages/autograd/numpy/linalg.py",
+        "path_type": "hardlink",
+        "sha256": "c605ae13577438a6906fa551deeb98101c61bf36a83cfb71c2bbce4929ede969",
+        "sha256_in_prefix": "c605ae13577438a6906fa551deeb98101c61bf36a83cfb71c2bbce4929ede969",
+        "size_in_bytes": 11352
+      },
+      {
+        "_path": "site-packages/autograd/numpy/numpy_boxes.py",
+        "path_type": "hardlink",
+        "sha256": "330346190c251fa48cf0ffee17e19cdaaa373bd4a3c1b19a716a20a508fca0ce",
+        "sha256_in_prefix": "330346190c251fa48cf0ffee17e19cdaaa373bd4a3c1b19a716a20a508fca0ce",
+        "size_in_bytes": 3823
+      },
+      {
+        "_path": "site-packages/autograd/numpy/numpy_jvps.py",
+        "path_type": "hardlink",
+        "sha256": "349e55a65d9e282373b0b036e5486e9a2f034171d717b3adbfdc7ec84a46bc17",
+        "sha256_in_prefix": "349e55a65d9e282373b0b036e5486e9a2f034171d717b3adbfdc7ec84a46bc17",
+        "size_in_bytes": 10842
+      },
+      {
+        "_path": "site-packages/autograd/numpy/numpy_vjps.py",
+        "path_type": "hardlink",
+        "sha256": "fed13116c302dc9930be591d59aedc068cb3b5e15bf7bc15f921231ac6f220bd",
+        "sha256_in_prefix": "fed13116c302dc9930be591d59aedc068cb3b5e15bf7bc15f921231ac6f220bd",
+        "size_in_bytes": 32575
+      },
+      {
+        "_path": "site-packages/autograd/numpy/numpy_vspaces.py",
+        "path_type": "hardlink",
+        "sha256": "b51bf65a93a5e2d3f3d59ff8ac47b522e3dcbde4d757a75051e625d0c39a1a30",
+        "sha256_in_prefix": "b51bf65a93a5e2d3f3d59ff8ac47b522e3dcbde4d757a75051e625d0c39a1a30",
+        "size_in_bytes": 3632
+      },
+      {
+        "_path": "site-packages/autograd/numpy/numpy_wrapper.py",
+        "path_type": "hardlink",
+        "sha256": "9dd8e2f2f08f747448c306c139723bfeae2dda861108acd559f4fb15d45c3c88",
+        "sha256_in_prefix": "9dd8e2f2f08f747448c306c139723bfeae2dda861108acd559f4fb15d45c3c88",
+        "size_in_bytes": 5459
+      },
+      {
+        "_path": "site-packages/autograd/numpy/random.py",
+        "path_type": "hardlink",
+        "sha256": "9443b5d5590d655f3f9d78598f4406c4c5b4bbad8dd49b192b04bfaf8152f966",
+        "sha256_in_prefix": "9443b5d5590d655f3f9d78598f4406c4c5b4bbad8dd49b192b04bfaf8152f966",
+        "size_in_bytes": 149
+      },
+      {
+        "_path": "site-packages/autograd/scipy/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "50a657a68ef6268e7e03267bae032a117aa558334ac310cf8b699cc776e95ecd",
+        "sha256_in_prefix": "50a657a68ef6268e7e03267bae032a117aa558334ac310cf8b699cc776e95ecd",
+        "size_in_bytes": 183
+      },
+      {
+        "_path": "site-packages/autograd/scipy/integrate.py",
+        "path_type": "hardlink",
+        "sha256": "d224303ddb1f32fb225d3738df618ca8866c1e29d14ed106d9d18bf6897d1a67",
+        "sha256_in_prefix": "d224303ddb1f32fb225d3738df618ca8866c1e29d14ed106d9d18bf6897d1a67",
+        "size_in_bytes": 2867
+      },
+      {
+        "_path": "site-packages/autograd/scipy/linalg.py",
+        "path_type": "hardlink",
+        "sha256": "ca4cf16552e9f5a195eae9e5e4ad2b33320d69a0f0da9d15559c7e32775a42a5",
+        "sha256_in_prefix": "ca4cf16552e9f5a195eae9e5e4ad2b33320d69a0f0da9d15559c7e32775a42a5",
+        "size_in_bytes": 4240
+      },
+      {
+        "_path": "site-packages/autograd/scipy/misc.py",
+        "path_type": "hardlink",
+        "sha256": "b3e96f859087b82bb42f9d85b3159f3575090d8b39330ed5550e300e3db363c5",
+        "sha256_in_prefix": "b3e96f859087b82bb42f9d85b3159f3575090d8b39330ed5550e300e3db363c5",
+        "size_in_bytes": 168
+      },
+      {
+        "_path": "site-packages/autograd/scipy/signal.py",
+        "path_type": "hardlink",
+        "sha256": "ca259aa84dd47776f93b04efc4ab59b5421a1640d8e4798fdabf9850de8520f8",
+        "sha256_in_prefix": "ca259aa84dd47776f93b04efc4ab59b5421a1640d8e4798fdabf9850de8520f8",
+        "size_in_bytes": 5886
+      },
+      {
+        "_path": "site-packages/autograd/scipy/special.py",
+        "path_type": "hardlink",
+        "sha256": "9602217fc3880483dfbbc798ec2bb706437881a3c1c0067afc5653886e436038",
+        "sha256_in_prefix": "9602217fc3880483dfbbc798ec2bb706437881a3c1c0067afc5653886e436038",
+        "size_in_bytes": 5135
+      },
+      {
+        "_path": "site-packages/autograd/scipy/stats/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "d0b3103957fc3e2f3d10cf27b69df7a5b1610256d52652f2e7c9ee6ec1a02a72",
+        "sha256_in_prefix": "d0b3103957fc3e2f3d10cf27b69df7a5b1610256d52652f2e7c9ee6ec1a02a72",
+        "size_in_bytes": 391
+      },
+      {
+        "_path": "site-packages/autograd/scipy/stats/beta.py",
+        "path_type": "hardlink",
+        "sha256": "5846df3ec6286836e0c5e887cfbd34b440aa709652af589c156c5658ad8fd0a4",
+        "sha256_in_prefix": "5846df3ec6286836e0c5e887cfbd34b440aa709652af589c156c5658ad8fd0a4",
+        "size_in_bytes": 1332
+      },
+      {
+        "_path": "site-packages/autograd/scipy/stats/chi2.py",
+        "path_type": "hardlink",
+        "sha256": "0d33c1fe49260f7ff0b10b1af6dea405feed39b8132eb34177f5b31a19beac4a",
+        "sha256_in_prefix": "0d33c1fe49260f7ff0b10b1af6dea405feed39b8132eb34177f5b31a19beac4a",
+        "size_in_bytes": 809
+      },
+      {
+        "_path": "site-packages/autograd/scipy/stats/dirichlet.py",
+        "path_type": "hardlink",
+        "sha256": "0330aa009a157387773141040f06818767a8d48dbfd4798b6a87a96eb7a8314e",
+        "sha256_in_prefix": "0330aa009a157387773141040f06818767a8d48dbfd4798b6a87a96eb7a8314e",
+        "size_in_bytes": 772
+      },
+      {
+        "_path": "site-packages/autograd/scipy/stats/gamma.py",
+        "path_type": "hardlink",
+        "sha256": "0b3241dce9ae2e308c4f3122a3ece9b0cf3785c026a69c92b431c6e3962cc847",
+        "sha256_in_prefix": "0b3241dce9ae2e308c4f3122a3ece9b0cf3785c026a69c92b431c6e3962cc847",
+        "size_in_bytes": 987
+      },
+      {
+        "_path": "site-packages/autograd/scipy/stats/multivariate_normal.py",
+        "path_type": "hardlink",
+        "sha256": "a8858649162e4ef2527203a91e7173d72de9645ab331991524d0e09899b308d5",
+        "sha256_in_prefix": "a8858649162e4ef2527203a91e7173d72de9645ab331991524d0e09899b308d5",
+        "size_in_bytes": 2509
+      },
+      {
+        "_path": "site-packages/autograd/scipy/stats/norm.py",
+        "path_type": "hardlink",
+        "sha256": "9cd1fbcbb951de30bc99b48e1e0ac0003af1ba060ab9aedca96284b3ee2b7102",
+        "sha256_in_prefix": "9cd1fbcbb951de30bc99b48e1e0ac0003af1ba060ab9aedca96284b3ee2b7102",
+        "size_in_bytes": 2758
+      },
+      {
+        "_path": "site-packages/autograd/scipy/stats/poisson.py",
+        "path_type": "hardlink",
+        "sha256": "862a6d2fc3829c20d022f5303b9f44ff26082f4c7df18b6906e7cbcfc4cd202b",
+        "sha256_in_prefix": "862a6d2fc3829c20d022f5303b9f44ff26082f4c7df18b6906e7cbcfc4cd202b",
+        "size_in_bytes": 715
+      },
+      {
+        "_path": "site-packages/autograd/scipy/stats/t.py",
+        "path_type": "hardlink",
+        "sha256": "5d9beeb1c4d4aeddcf4013ecf009f43804f9c1c31687929ee265e41db8b6db64",
+        "sha256_in_prefix": "5d9beeb1c4d4aeddcf4013ecf009f43804f9c1c31687929ee265e41db8b6db64",
+        "size_in_bytes": 2670
+      },
+      {
+        "_path": "site-packages/autograd/test_util.py",
+        "path_type": "hardlink",
+        "sha256": "3ff9faf8a798ca7bb88da4a8e234024028cbcc1bff9cfb56247dcc209dcdda35",
+        "sha256_in_prefix": "3ff9faf8a798ca7bb88da4a8e234024028cbcc1bff9cfb56247dcc209dcdda35",
+        "size_in_bytes": 2881
+      },
+      {
+        "_path": "site-packages/autograd/tracer.py",
+        "path_type": "hardlink",
+        "sha256": "bac3fddb30b17b3f4744835309791352bd7eb47949016eab0b641319ae22046f",
+        "sha256_in_prefix": "bac3fddb30b17b3f4744835309791352bd7eb47949016eab0b641319ae22046f",
+        "size_in_bytes": 3951
+      },
+      {
+        "_path": "site-packages/autograd/util.py",
+        "path_type": "hardlink",
+        "sha256": "249e0e44700f8a5b139696c38a25bcb1d29652ab5b930e173ed38fff8a87ee35",
+        "sha256_in_prefix": "249e0e44700f8a5b139696c38a25bcb1d29652ab5b930e173ed38fff8a87ee35",
+        "size_in_bytes": 1482
+      },
+      {
+        "_path": "site-packages/autograd/wrap_util.py",
+        "path_type": "hardlink",
+        "sha256": "a6c05c75df3b0323eccc3b386181a145cb73ba789276d9585d931576677f9643",
+        "sha256_in_prefix": "a6c05c75df3b0323eccc3b386181a145cb73ba789276d9585d931576677f9643",
+        "size_in_bytes": 1581
+      },
+      {
+        "_path": "lib/python3.12/site-packages/autograd/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/autograd/__pycache__/builtins.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/autograd/__pycache__/core.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/autograd/__pycache__/differential_operators.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/autograd/__pycache__/extend.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/autograd/misc/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/autograd/misc/__pycache__/fixed_points.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/autograd/misc/__pycache__/flatten.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/autograd/misc/__pycache__/optimizers.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/autograd/misc/__pycache__/tracers.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/autograd/numpy/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/autograd/numpy/__pycache__/fft.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/autograd/numpy/__pycache__/linalg.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/autograd/numpy/__pycache__/numpy_boxes.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/autograd/numpy/__pycache__/numpy_jvps.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/autograd/numpy/__pycache__/numpy_vjps.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/autograd/numpy/__pycache__/numpy_vspaces.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/autograd/numpy/__pycache__/numpy_wrapper.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/autograd/numpy/__pycache__/random.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/autograd/scipy/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/autograd/scipy/__pycache__/integrate.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/autograd/scipy/__pycache__/linalg.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/autograd/scipy/__pycache__/misc.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/autograd/scipy/__pycache__/signal.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/autograd/scipy/__pycache__/special.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/autograd/scipy/stats/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/autograd/scipy/stats/__pycache__/beta.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/autograd/scipy/stats/__pycache__/chi2.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/autograd/scipy/stats/__pycache__/dirichlet.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/autograd/scipy/stats/__pycache__/gamma.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/autograd/scipy/stats/__pycache__/multivariate_normal.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/autograd/scipy/stats/__pycache__/norm.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/autograd/scipy/stats/__pycache__/poisson.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/autograd/scipy/stats/__pycache__/t.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/autograd/__pycache__/test_util.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/autograd/__pycache__/tracer.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/autograd/__pycache__/util.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/autograd/__pycache__/wrap_util.cpython-312.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "conda-forge::autograd",
+  "sha256": "2640424d10419ebc53cf962b606de81deec33611f9d1f08eee1e23bbd7fc4a96",
+  "size": 47431,
+  "subdir": "noarch",
+  "timestamp": 1724658599538,
+  "url": "https://conda.anaconda.org/conda-forge/noarch/autograd-1.7.0-pyhd8ed1ab_0.conda",
+  "version": "1.7.0"
+}
