@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+const { useState, useEffect } = React;
 
 const WeightliftingProgram = () => {
   const [programType, setProgramType] = useState('rookies');
@@ -8,8 +8,7 @@ const WeightliftingProgram = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        // Updated to your specific GitHub repository
-        const response = await fetch('https://raw.githubusercontent.com/GeorgeVassilakis/NUWeightlifting-Program/main/programs.json');
+        const response = await fetch('programs.json');
         const data = await response.json();
         setProgramData(data);
         setLoading(false);
@@ -132,15 +131,10 @@ const WeightliftingProgram = () => {
           </div>
         </div>
       </main>
-
-      {/* Footer */}
-      <footer className="bg-gray-800 text-white py-4 mt-8">
-        <div className="container mx-auto px-4 text-center">
-          <p>© 2025 Northeastern University Weightlifting Club</p>
-        </div>
-      </footer>
     </div>
   );
 };
 
-export default WeightliftingProgram;
+// Render the app
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(<WeightliftingProgram />);
