@@ -135,6 +135,8 @@ const WeightliftingProgram = () => {
   );
 };
 
-// Render the app
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(<WeightliftingProgram />);
+// Change only the last line to:
+window.addEventListener('load', () => {
+  const root = ReactDOM.createRoot(document.getElementById('root'));
+  root.render(<WeightliftingProgram />);
+});
