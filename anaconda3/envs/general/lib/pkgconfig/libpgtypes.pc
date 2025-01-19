@@ -1,9 +1,0 @@
-Name: libpgtypes
-Description: PostgreSQL libpgtypes library
-Url: http://www.postgresql.org/
-Version: 12.17
-Requires: 
-Requires.private: 
-Cflags: -I/home/localwsl/anaconda3/envs/general/include
-Libs: -L/home/localwsl/anaconda3/envs/general/lib -lpgtypes
-Libs.private: -L/home/localwsl/anaconda3/envs/general/lib -lpgcommon -lpgport -lm
