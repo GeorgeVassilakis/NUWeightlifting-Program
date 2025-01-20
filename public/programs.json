@@ -45,9 +45,12 @@
                     "4 rounds:",
                     "Lying biceps curls x8-12",
                     "Wrist Curls x15-18",
-                    "Abalakov Jump x10",
-                    "Planks + Side Planks 3x1 minute"
+                    "Abalakov Jump x10"
                   ]
+                },
+                {
+                  "name": "Planks + Side Planks",
+                  "sets": ["3x1 minute"]
                 }
               ]
             },
@@ -80,9 +83,12 @@
                   "sets": [
                     "4 rounds:",
                     "Dumbbell Laterals x8-12",
-                    "Weighted Single Leg calf raises x15-18",
-                    "Weighted Reverse Bench Plank 3x1 minute"
+                    "Weighted Single Leg calf raises x15-18"
                   ]
+                },
+                {
+                  "name": "Weighted Reverse Bench Plank",
+                  "sets": ["3x1 minute"]
                 }
               ]
             },
@@ -111,9 +117,12 @@
                   "sets": [
                     "4 rounds:",
                     "Triceps extensions x8-12",
-                    "GHD Nordic Curl x8-12",
-                    "Weighted Planks 3x1 minute"
+                    "GHD Nordic Curl x8-12"
                   ]
+                },
+                {
+                  "name": "Weighted Planks",
+                  "sets": ["3x1 minute"]
                 }
               ]
             }
@@ -154,9 +163,12 @@
                   "sets": [
                     "4 rounds:",
                     "Lying biceps curls x8-12",
-                    "Wrist curls x15-18",
-                    "Weighted Plank 3x1 minute"
+                    "Wrist curls x15-18"
                   ]
+                },
+                {
+                  "name": "Weighted Plank",
+                  "sets": ["3x1 minute"]
                 }
               ]
             },
@@ -182,9 +194,12 @@
                     "4 rounds:",
                     "Abalakov Jump x10",
                     "Triceps extensions x8-12",
-                    "Wall Tibia raises x15-18",
-                    "Side Plank 3x1 minute"
+                    "Wall Tibia raises x15-18"
                   ]
+                },
+                {
+                  "name": "Side Plank",
+                  "sets": ["3x1 minute"]
                 }
               ]
             },
@@ -213,9 +228,12 @@
                   "sets": [
                     "4 rounds:",
                     "Dumbbell Lateral x8-12",
-                    "Wrist curls x15-18",
-                    "Copenhagen side plank 3x1 minute"
+                    "Wrist curls x15-18"
                   ]
+                },
+                {
+                  "name": "Copenhagen side plank",
+                  "sets": ["3x1 minute"]
                 }
               ]
             },
@@ -244,9 +262,12 @@
                   "sets": [
                     "4 rounds:",
                     "Single leg Abalakov Jump x10",
-                    "GHD Nordic curl x10",
-                    "Weighted Plank 3x1 minute"
+                    "GHD Nordic curl x10"
                   ]
+                },
+                {
+                  "name": "Weighted Plank",
+                  "sets": ["3x1 minute"]
                 }
               ]
             }
@@ -301,9 +322,12 @@
                   "sets": [
                     "4 rounds:",
                     "Lying biceps curls x10",
-                    "Wrist curls x15-18",
-                    "Weighted Plank 3x1 minute"
+                    "Wrist curls x15-18"
                   ]
+                },
+                {
+                  "name": "Weighted Plank",
+                  "sets": ["3x1 minute"]
                 }
               ]
             },
@@ -333,9 +357,12 @@
                     "4 rounds:",
                     "Triceps extensions x8-12",
                     "Abalakov Jump x10",
-                    "Wall tibia raises x15-18",
-                    "Side Plank 3x1 minute"
+                    "Wall tibia raises x15-18"
                   ]
+                },
+                {
+                  "name": "Side Plank",
+                  "sets": ["3x1 minute"]
                 }
               ]
             },
@@ -368,9 +395,12 @@
                   "sets": [
                     "4 rounds:",
                     "Tempo overhead squat 10 secs + 30 sec hold + 10 secs recovery bar-55%",
-                    "Reverse wrist curls x15-18",
-                    "Weighted Reverse Bench Plank 3x1 minute"
+                    "Reverse wrist curls x15-18"
                   ]
+                },
+                {
+                  "name": "Weighted Reverse Bench Plank",
+                  "sets": ["3x1 minute"]
                 }
               ]
             },
@@ -399,9 +429,12 @@
                   "sets": [
                     "4 rounds:",
                     "Dumbbell laterals raises x8-12",
-                    "Single leg Abalakov Jump x10",
-                    "Weighted Plank 3x1 minute"
+                    "Single leg Abalakov Jump x10"
                   ]
+                },
+                {
+                  "name": "Weighted Plank",
+                  "sets": ["3x1 minute"]
                 }
               ]
             }
@@ -447,9 +480,12 @@
                   "sets": [
                     "4 rounds:",
                     "Wall Tibia raises x15-18",
-                    "Wrist curls x15-18",
-                    "Weighted Plank 3x1 minute"
+                    "Wrist curls x15-18"
                   ]
+                },
+                {
+                  "name": "Weighted Plank",
+                  "sets": ["3x1 minute"]
                 }
               ]
             },
@@ -478,8 +514,8 @@
                   "sets": ["5x5"]
                 },
                 {
-                  "name": "Accessories",
-                  "sets": ["Weighted Reverse Plank 3x1 minute"]
+                  "name": "Weighted Reverse Plank",
+                  "sets": ["3x1 minute"]
                 }
               ]
             },
