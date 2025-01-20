@@ -6,6 +6,7 @@ const WeightliftingProgram = () => {
   const [loading, setLoading] = useState(true);
   const [selectedWeek, setSelectedWeek] = useState(null);
   const [availableWeeks, setAvailableWeeks] = useState([]);
+  const [selectedDay, setSelectedDay] = useState(0); // New state for selected day
 
   useEffect(() => {
     const fetchData = async () => {
@@ -13,9 +14,9 @@ const WeightliftingProgram = () => {
         const response = await fetch('/NUWeightlifting-Program/programs.json');
         const data = await response.json();
         setProgramData(data);
-        const weeks = Object.keys(data.weeks).sort((a, b) => b.localeCompare(a)); // Sort newest first
+        const weeks = Object.keys(data.weeks).sort((a, b) => b.localeCompare(a));
         setAvailableWeeks(weeks);
-        setSelectedWeek(weeks[0]); // Select the newest week by default
+        setSelectedWeek(weeks[0]);
         setLoading(false);
       } catch (error) {
         console.error('Error fetching program data:', error);
@@ -44,10 +45,11 @@ const WeightliftingProgram = () => {
 
   const currentProgram = programData.weeks[selectedWeek].programs[programType];
   const weekMeta = programData.weeks[selectedWeek].meta;
+  const currentDay = currentProgram.days[selectedDay];
 
   return (
     <div className="min-h-screen bg-gray-100">
-      {/* Header - Made sticky */}
+      {/* Header */}
       <header className="bg-red-700 text-white py-4 sticky top-0 z-50 shadow-lg">
         <div className="container mx-auto px-4">
           <h1 className="text-2xl md:text-3xl font-bold">NU Weightlifting Club</h1>
@@ -62,6 +64,21 @@ const WeightliftingProgram = () => {
               {availableWeeks.map((week) => (
                 <option key={week} value={week}>
                   Week of {programData.weeks[week].meta.weekOf}
+                </option>
+              ))}
+            </select>
+          </div>
+
+          {/* Day Selection Dropdown */}
+          <div className="mt-2">
+            <select
+              value={selectedDay}
+              onChange={(e) => setSelectedDay(Number(e.target.value))}
+              className="bg-red-600 text-white py-2 px-3 rounded-lg text-sm md:text-base w-full max-w-xs"
+            >
+              {currentProgram.days.map((day, index) => (
+                <option key={index} value={index}>
+                  {day.name} - {day.volume}
                 </option>
               ))}
             </select>
@@ -124,40 +141,38 @@ const WeightliftingProgram = () => {
             </div>
           </div>
 
-          {/* Training Days */}
-          <div className="space-y-4 p-4">
-            {currentProgram.days.map((day, dayIndex) => (
-              <div key={dayIndex} className="bg-gray-50 rounded-lg p-4">
-                <div className="flex justify-between items-baseline mb-3 bg-gray-100 p-3 rounded-lg">
-                  <h3 className="text-lg md:text-xl font-bold text-red-700">{day.name}</h3>
-                  <span className="text-gray-600 text-sm">{day.volume}</span>
-                </div>
-                
-                <div className="space-y-6">
-                  {day.exercises.map((exercise, exIndex) => (
-                    <div key={exIndex} className="border-b border-gray-200 pb-4 last:border-0">
-                      <h4 className="font-bold text-base md:text-lg mb-2 text-gray-800">
-                        {exercise.name}
-                      </h4>
-                      <div className="grid grid-cols-2 md:grid-cols-3 gap-2">
-                        {exercise.sets.map((set, setIndex) => (
-                          <div 
-                            key={setIndex} 
-                            className={`${
-                              set.includes('rounds:') 
-                                ? 'font-semibold col-span-2 md:col-span-3 bg-gray-100 p-2 rounded mt-2' 
-                                : 'p-2 bg-white rounded shadow-sm'
-                            } text-sm md:text-base`}
-                          >
-                            {set}
-                          </div>
-                        ))}
-                      </div>
-                    </div>
-                  ))}
-                </div>
+          {/* Single Day Display */}
+          <div className="p-4">
+            <div className="bg-gray-50 rounded-lg p-4">
+              <div className="flex justify-between items-baseline mb-3 bg-gray-100 p-3 rounded-lg">
+                <h3 className="text-lg md:text-xl font-bold text-red-700">{currentDay.name}</h3>
+                <span className="text-gray-600 text-sm">{currentDay.volume}</span>
               </div>
-            ))}
+              
+              <div className="space-y-6">
+                {currentDay.exercises.map((exercise, exIndex) => (
+                  <div key={exIndex} className="border-b border-gray-200 pb-4 last:border-0">
+                    <h4 className="font-bold text-base md:text-lg mb-2 text-gray-800">
+                      {exercise.name}
+                    </h4>
+                    <div className="grid grid-cols-2 md:grid-cols-3 gap-2">
+                      {exercise.sets.map((set, setIndex) => (
+                        <div 
+                          key={setIndex} 
+                          className={`${
+                            set.includes('rounds:') 
+                              ? 'font-semibold col-span-2 md:col-span-3 bg-gray-100 p-2 rounded mt-2' 
+                              : 'p-2 bg-white rounded shadow-sm'
+                          } text-sm md:text-base`}
+                        >
+                          {set}
+                        </div>
+                      ))}
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </div>
           </div>
         </div>
       </main>
