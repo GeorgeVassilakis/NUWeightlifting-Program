@@ -4,6 +4,8 @@ const WeightliftingProgram = () => {
   const [programType, setProgramType] = useState('rookies');
   const [programData, setProgramData] = useState(null);
   const [loading, setLoading] = useState(true);
+  const [selectedWeek, setSelectedWeek] = useState(null);
+  const [availableWeeks, setAvailableWeeks] = useState([]);
 
   useEffect(() => {
     const fetchData = async () => {
@@ -11,6 +13,9 @@ const WeightliftingProgram = () => {
         const response = await fetch('/NUWeightlifting-Program/programs.json');
         const data = await response.json();
         setProgramData(data);
+        const weeks = Object.keys(data.weeks).sort((a, b) => b.localeCompare(a)); // Sort newest first
+        setAvailableWeeks(weeks);
+        setSelectedWeek(weeks[0]); // Select the newest week by default
         setLoading(false);
       } catch (error) {
         console.error('Error fetching program data:', error);
@@ -29,7 +34,7 @@ const WeightliftingProgram = () => {
     );
   }
 
-  if (!programData) {
+  if (!programData || !selectedWeek) {
     return (
       <div className="min-h-screen bg-gray-100 flex items-center justify-center">
         <div className="text-xl text-red-600">Error loading program data</div>
@@ -37,7 +42,8 @@ const WeightliftingProgram = () => {
     );
   }
 
-  const currentProgram = programData.programs[programType];
+  const currentProgram = programData.weeks[selectedWeek].programs[programType];
+  const weekMeta = programData.weeks[selectedWeek].meta;
 
   return (
     <div className="min-h-screen bg-gray-100">
@@ -45,9 +51,23 @@ const WeightliftingProgram = () => {
       <header className="bg-red-700 text-white py-4 sticky top-0 z-50 shadow-lg">
         <div className="container mx-auto px-4">
           <h1 className="text-2xl md:text-3xl font-bold">NU Weightlifting Club</h1>
-          <p className="mt-1 text-sm md:text-base">Week of {programData.weekOf}</p>
           
-          {/* Program Type Selection - Made more touch-friendly */}
+          {/* Week Selection Dropdown */}
+          <div className="mt-2">
+            <select 
+              value={selectedWeek}
+              onChange={(e) => setSelectedWeek(e.target.value)}
+              className="bg-red-600 text-white py-2 px-3 rounded-lg text-sm md:text-base w-full max-w-xs"
+            >
+              {availableWeeks.map((week) => (
+                <option key={week} value={week}>
+                  Week of {programData.weeks[week].meta.weekOf}
+                </option>
+              ))}
+            </select>
+          </div>
+          
+          {/* Program Type Selection */}
           <div className="mt-3 flex gap-2 md:gap-4">
             <button 
               className={`flex-1 py-3 px-4 rounded-lg text-sm md:text-base transition-colors ${
