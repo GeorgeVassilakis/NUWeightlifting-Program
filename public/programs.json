@@ -593,7 +593,7 @@
         }
       }
     },
-        "0126": {
+    "0126": {
       "meta": {
         "weekOf": "1/26",
         "weekNumber": "Week 4"
@@ -764,6 +764,256 @@
                     "4 rounds:",
                     "Lying biceps curls x8-12",
                     "Weighted single leg calf raises x15-18"
+                  ]
+                },
+                {
+                  "name": "Weighted Plank",
+                  "sets": ["3x1 minute"]
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "0202": {
+      "meta": {
+        "weekOf": "2/2",
+        "weekNumber": "Week 9"
+      },
+      "programs": {
+        "veterans": {
+          "weekNumber": "Week 9",
+          "totalVolume": "234 (70sn 70cj 70sq 23pu)",
+          "coachesNotes": [],
+          "athleteNotes": [
+            "Low volume - start of pre-competition mesocycle",
+            "Maxout week",
+            "Additional accessories not recommended except perhaps light rehab",
+            "Day 1 has the highest average intensity of the training cycle. You'll probably feel quite fatigued from it much of the week."
+          ],
+          "days": [
+            {
+              "name": "Day 1",
+              "volume": "83 (21sn 21cj 29sq 12pu)",
+              "exercises": [
+                {
+                  "name": "Snatch",
+                  "sets": ["70(2x3)", "75x3", "80x3", "83(3x3)"]
+                },
+                {
+                  "name": "C&J",
+                  "sets": ["70(2x3)", "75x3", "80x3", "83(3x3)"]
+                },
+                {
+                  "name": "Back Squat",
+                  "sets": ["60x7", "65x5", "70x5", "75x3", "80x3", "83(2x3)"]
+                },
+                {
+                  "name": "Snatch Pull / Panda Pull",
+                  "sets": ["90(2x3)", "95(2x3)"]
+                },
+                {
+                  "name": "Accessories",
+                  "sets": [
+                    "4 rounds:",
+                    "Calf raises x15-18",
+                    "Wrist curls x15-18"
+                  ]
+                },
+                {
+                  "name": "Weighted Plank",
+                  "sets": ["3x1 minute"]
+                }
+              ]
+            },
+            {
+              "name": "Day 2",
+              "volume": "51 (15sn 15cj 21sq 0pu)",
+              "exercises": [
+                {
+                  "name": "Hang Snatch below knee",
+                  "sets": ["65(2x3)", "70x3", "75(2x3)"]
+                },
+                {
+                  "name": "Back Jerk",
+                  "sets": ["65(2x3)", "70x3", "75(2x3)"]
+                },
+                {
+                  "name": "Front Squat",
+                  "sets": ["60x4", "65x4", "70x4", "75x3", "80x3", "83x3"]
+                },
+                {
+                  "name": "Abalakov Jump",
+                  "sets": ["4x10"]
+                },
+                {
+                  "name": "Weighted Reverse Bench Plank",
+                  "sets": ["3x1 minute"]
+                }
+              ]
+            },
+            {
+              "name": "Day 3",
+              "volume": "66 (15sn 15cj 24sq 12pu)",
+              "exercises": [
+                {
+                  "name": "Snatch",
+                  "sets": ["65x3", "70(2x3)", "75(2x3)"]
+                },
+                {
+                  "name": "C&J",
+                  "sets": ["65x3", "70(2x3)", "75(2x3)"]
+                },
+                {
+                  "name": "Back Squat",
+                  "sets": ["60x5", "65x5", "70x4", "75x4", "80(2x3)"]
+                },
+                {
+                  "name": "Snatch Pull / Panda Pull",
+                  "sets": ["90(2x3)", "95(2x3)"]
+                },
+                {
+                  "name": "Side Plank",
+                  "sets": ["3x1 minute"]
+                }
+              ]
+            },
+            {
+              "name": "Day 4",
+              "volume": "35 (17sn 17cj 0sq 0pu)",
+              "exercises": [
+                {
+                  "name": "Snatch",
+                  "sets": ["65x3", "70x3", "75x2", "80x2", "85x2", "90x2", "95x1", "100x1", "105x1"]
+                },
+                {
+                  "name": "C&J",
+                  "sets": ["65x3", "70x3", "75x2", "80x2", "85x2", "90x2", "95x1", "100x1", "105x1"]
+                }
+              ]
+            }
+          ]
+        },
+        "rookies": {
+          "weekNumber": "Week 5",
+          "totalVolume": "220 (66sn 66cj 66sq 22pu)",
+          "coachesNotes": [
+            "Since we are in the pre-competition phase, begin tapering accessories."
+          ],
+          "athleteNotes": [
+            "Start of pre-competition mesocycle",
+            "Volume decreases and intensity increases"
+          ],
+          "days": [
+            {
+              "name": "Day 1",
+              "volume": "70 (21sn 21cj 18sq 10pu)",
+              "exercises": [
+                {
+                  "name": "Snatch Press BN in squat",
+                  "sets": ["4x5"]
+                },
+                {
+                  "name": "PS",
+                  "sets": ["60(2x3)", "65x3", "70x3", "75x3", "80(2x3)"]
+                },
+                {
+                  "name": "PC+PJ",
+                  "sets": ["65(2x3)", "70x3", "75(2x3)", "80(2x3)"]
+                },
+                {
+                  "name": "Back Squat",
+                  "sets": ["60x3", "65x3", "70x3", "75x3", "80x3", "83x3"]
+                },
+                {
+                  "name": "Snatch Pull / Panda Pull",
+                  "sets": ["85(2x3)", "90(2x2)"]
+                },
+                {
+                  "name": "Barbell Rows",
+                  "sets": ["5x5"]
+                },
+                {
+                  "name": "Accessories",
+                  "sets": [
+                    "4 rounds:",
+                    "Lying biceps curls x8-12",
+                    "Wrist curls x15-18",
+                    "Abalakov Jump x10"
+                  ]
+                },
+                {
+                  "name": "Weighted Plank",
+                  "sets": ["3x1 minute"]
+                }
+              ]
+            },
+            {
+              "name": "Day 2",
+              "volume": "57 (21sn 21cj 15sq 0pu)",
+              "exercises": [
+                {
+                  "name": "Snatch Press BN in squat",
+                  "sets": ["4x5"]
+                },
+                {
+                  "name": "Snatch w/5 secs hold in catch",
+                  "sets": ["60x4", "65x3", "70x3", "75x3", "80x3", "85x3", "90x2"]
+                },
+                {
+                  "name": "C&J",
+                  "sets": ["60x3", "65x3", "70x3", "75x3", "80x3", "85x2", "90(2x2)"]
+                },
+                {
+                  "name": "Front Squat",
+                  "sets": ["70x4", "75x4", "80x4", "85x3"]
+                },
+                {
+                  "name": "Clean Grip BN Press in split",
+                  "sets": ["5x5"]
+                },
+                {
+                  "name": "Accessories",
+                  "sets": [
+                    "4 rounds:",
+                    "Triceps extensions x8-12",
+                    "LU raises x8-12",
+                    "Single leg Abalakov Jump x10"
+                  ]
+                },
+                {
+                  "name": "Weighted Reverse Bench Plank",
+                  "sets": ["3x1 minute"]
+                }
+              ]
+            },
+            {
+              "name": "Day 3",
+              "volume": "92 (21sn 24cj 36sq 12pu)",
+              "exercises": [
+                {
+                  "name": "Snatch",
+                  "sets": ["60x3", "65(2x3)", "70x3", "75x3", "80x3", "87x1", "95(2x1)"]
+                },
+                {
+                  "name": "C&J",
+                  "sets": ["60x3", "65(2x3)", "70x3", "75x3", "80(2x3)", "87x1", "95(2x1)"]
+                },
+                {
+                  "name": "Back Squat",
+                  "sets": ["60(3x5)", "65(2x5)", "70x2", "75x2", "80x2", "85x2", "90x1", "95(2x1)"]
+                },
+                {
+                  "name": "Dumbbell Bench Press",
+                  "sets": ["5x5"]
+                },
+                {
+                  "name": "Accessories",
+                  "sets": [
+                    "4 rounds:",
+                    "Reverse wrist curls x15-18",
+                    "Single leg weighted calf raises x15-18"
                   ]
                 },
                 {
