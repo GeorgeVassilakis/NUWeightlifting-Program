@@ -1025,6 +1025,237 @@
           ]
         }
       }
+    },
+    "0209": {
+      "meta": {
+        "weekOf": "2/9",
+        "weekNumber": "Week 10"
+      },
+      "programs": {
+        "veterans": {
+          "weekNumber": "Week 10",
+          "totalVolume": "148 (44sn 44cj 44sq 15pu)",
+          "coachesNotes": [
+            "Additional accessories (besides rehab) not recommended",
+            "Additional day of bar work / technical work recommended"
+          ],
+          "athleteNotes": [
+            "Low volume",
+            "High intensity"
+          ],
+          "days": [
+            {
+              "name": "Day 1",
+              "volume": "47 (15sn 15cj 17sq 0pu)",
+              "exercises": [
+                {
+                  "name": "PS",
+                  "sets": ["60x3", "65x3", "70x3", "75(2x3)"]
+                },
+                {
+                  "name": "PC+PJ",
+                  "sets": ["65x3", "70x3", "75x3", "80(2x3)"]
+                },
+                {
+                  "name": "Back Squat",
+                  "sets": ["65x3", "70x3", "75x3", "80x3", "83(2x3)"]
+                },
+                {
+                  "name": "Barbell Rows",
+                  "sets": ["5x5"]
+                },
+                {
+                  "name": "Accessories",
+                  "sets": [
+                    "4 rounds:",
+                    "Abalakov Jump x10",
+                    "GHD Nordic Curl x10",
+                    "Wrist curls x15-18"
+                  ]
+                },
+                {
+                  "name": "Weighted Plank",
+                  "sets": ["3x1 minute"]
+                }
+              ]
+            },
+            {
+              "name": "Day 2",
+              "volume": "38 (11sn 11cj 0sq 12pu)",
+              "exercises": [
+                {
+                  "name": "Snatch",
+                  "sets": ["warm up @bar-55 as much as necessary","60x1", "70x1", "80(3x3)"]
+                },
+                {
+                  "name": "C&J",
+                  "sets": ["Warm up @bar-55 as much as necessary", "65x1", "75x1", "80(3x3)"]
+                },
+                {
+                  "name": "Snatch Pull / Panda Pull",
+                  "sets": ["90(2x3)", "95(2x3)"]
+                },
+                {
+                  "name": "Clean Grip BN Press",
+                  "sets": ["5x5"]
+                },
+                {
+                  "name": "Accessories",
+                  "sets": [
+                    "4 rounds:",
+                    "Triceps extensions x10",
+                    "Single leg calf raises x15-18"
+                  ]
+                },
+                {
+                  "name": "Side Plank + Reverse Plank",
+                  "sets": ["3x1 minute"]
+                }
+              ]
+            },
+            {
+              "name": "Day 3",
+              "volume": "62 (18sn 18cj 27sq 0pu)",
+              "exercises": [
+                {
+                  "name": "Snatch",
+                  "sets": ["60x3", "65x2", "70x2", "75x2", "80x2", "85x2", "87x1", "70x2", "90x1", "94x1"]
+                },
+                {
+                  "name": "C&J",
+                  "sets": ["60x3", "65x2", "70x2", "75x2", "80x2", "85x2", "87x1", "70x2", "90(2x1)"]
+                },
+                {
+                  "name": "Back Squat",
+                  "sets": ["60x4", "65x4", "70x3", "75x3", "80x3", "85x3", "90(2x2)", "95x1", "100x1 + optional heavier"]
+                },
+                {
+                  "name": "Bench Press",
+                  "sets": ["5x5"]
+                },
+                {
+                  "name": "Accessories",
+                  "sets": [
+                    "4 rounds:",
+                    "LU raises x10",
+                    "Single leg Abalakov Jump 10"
+                  ]
+                },
+                {
+                  "name": "Weighted Plank",
+                  "sets": ["3x1 minute"]
+                }
+              ]
+            }
+          ]
+        },
+        "rookies": {
+          "weekNumber": "Week 6",
+          "totalVolume": "139 (42sn 42cj 42sq 14pu)",
+          "coachesNotes": ["Add accessories or bar work as desired. In the last mesocycle, accessories are usually greatly tapered."],
+          "athleteNotes": [
+            "Low volume",
+            "High intensity"
+          ],
+          "days": [
+            {
+              "name": "Day 1",
+              "volume": "44 (13sn 13cj 18sq 0pu)",
+              "exercises": [
+                {
+                  "name": "PS",
+                  "sets": ["70x3", "75x2", "80x2", "83(3x2)"]
+                },
+                {
+                  "name": "PC+PJ",
+                  "sets": ["60x3", "65x2", "70x2", "75x2", "80(2x2)"]
+                },
+                {
+                  "name": "Back Squat",
+                  "sets": ["65x3", "70x3", "75x3", "80x3", "83(3x2)"]
+                },
+                {
+                  "name": "Barbell Rows",
+                  "sets": ["5x5"]
+                },
+                {
+                  "name": "Accessories",
+                  "sets": [
+                    "4 rounds:",
+                    "Lying biceps curls x10",
+                    "GHD Nordic curl x10",
+                    "Abalakov jump x10"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Day 2",
+              "volume": "36 (12sn 12cj 0sq 12pu)",
+              "exercises": [
+                {
+                  "name": "Snatch",
+                  "sets": ["60x2", "65x2", "70x2", "75x2", "80x2", "85x2"]
+                },
+                {
+                  "name": "C&J",
+                  "sets": ["60x2", "65x2", "70x2", "75x2", "80x2", "85x2"]
+                },
+                {
+                  "name": "Snatch Pull / Panda Pull",
+                  "sets": ["85(2x3)", "90x3", "95x3"]
+                },
+                {
+                  "name": "Clean Grip BN Press",
+                  "sets": ["5x5"]
+                },
+                {
+                  "name": "Accessories",
+                  "sets": [
+                    "4 rounds:",
+                    "Single leg Abalakov jump x10",
+                    "Triceps extensions x10",
+                    "Wall Tibia raises x15-18"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Day 3",
+              "volume": "58 (17sn 17cj 24sq 0pu)",
+              "exercises": [
+                {
+                  "name": "Snatch",
+                  "sets": ["65x3", "70x3", "75x3", "80x2", "85x2", "90x2", "95(2x1)"]
+                },
+                {
+                  "name": "C&J",
+                  "sets": ["65x3", "70x3", "75x3", "80x2", "85x2", "90x2", "95x1", "97x1"]
+                },
+                {
+                  "name": "Back Squat",
+                  "sets": ["60x4", "65x4", "70x3", "75x3", "80x3", "85x2", "90x1", "95x1", "100x1", "optional: 1-2 heavier attempts if successful at 100"]
+                },
+                {
+                  "name": "Dumbbell Bench Press",
+                  "sets": ["5x5"]
+                },
+                {
+                  "name": "Accessories",
+                  "sets": [
+                    "4 rounds:",
+                    "Wrist curls x15-18"
+                  ]
+                },
+                {
+                  "name": "Weighted Plank",
+                  "sets": ["3x1 minute"]
+                }
+              ]
+            }
+          ]
+        }
+      }
     }
   }
 }
