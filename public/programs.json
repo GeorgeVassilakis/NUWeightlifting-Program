@@ -1256,6 +1256,260 @@
           ]
         }
       }
+    },
+    "0216": {
+      "meta": {
+        "weekOf": "2/16",
+        "weekNumber": "Week 11"
+      },
+      "programs": {
+        "rookies": {
+          "weekNumber": "Week 7",
+          "totalVolume": "176 (53sn 53cj 53sq 18pu)",
+          "coachesNotes": ["Other than for rehab, additional accessories not recommended"],
+          "athleteNotes": [
+            "Low volume / high intensity"
+          ],
+          "days": [
+            {
+              "name": "Day 1",
+              "volume": "74 (21sn 21cj 31sq 0pu)",
+              "exercises": [
+                {
+                  "name": "Hang Snatch below knee",
+                  "sets": ["60(2x3)", "65x3", "70x3", "75(3x3)"]
+                },
+                {
+                  "name": "PC+PJ",
+                  "sets": ["55x3", "60x3", "65x3", "70x3", "75x3", "80x3", "85x2"]
+                },
+                {
+                  "name": "Back Squat",
+                  "sets": ["60x6", "65x5", "70x5", "75x5", "80x4", "83(2x3)"]
+                },
+                {
+                  "name": "Clean Grip BN Press",
+                  "sets": ["5x5"]
+                },
+                {
+                  "name": "Accessories",
+                  "sets": [
+                    "4 rounds:",
+                    "Triceps extensions x10",
+                    "Abalakov Jump x10"
+                  ]
+                },
+                {
+                  "name": "Weighted Planks",
+                  "sets": ["3x1 minute"]
+                }
+              ]
+            },
+            {
+              "name": "Day 2",
+              "volume": "56 (17sn 17cj 22sq 0pu)",
+              "exercises": [
+                {
+                  "name": "Snatch",
+                  "sets": ["65(2x3)", "70x3", "75x3", "87x3", "85x2"]
+                },
+                {
+                  "name": "C&J",
+                  "sets": ["65(2x3)", "70x3", "75x3", "87x3", "83x2"]
+                },
+                {
+                  "name": "Front Squat",
+                  "sets": ["65x4", "70x4", "75x4", "80(2x3)", "85(2x2)"]
+                },
+                {
+                  "name": "Barbell Rows",
+                  "sets": ["5x5"]
+                },
+                {
+                  "name": "Accessories",
+                  "sets": [
+                    "4 rounds:",
+                    "Biceps curls x10",
+                    "Wrist curls x15-18"
+                  ]
+                },
+                {
+                  "name": "Weighted Reverse Bench Planks",
+                  "sets": ["3x1 minute"]
+                }
+              ]
+            },
+            {
+              "name": "Day 3",
+              "volume": "46 (17sn 17cj 0sq 12pu)",
+              "exercises": [
+                {
+                  "name": "Snatch",
+                  "sets": ["65x3", "70x3", "75x3", "87x3", "85x2", "95x1", "100x1"]
+                },
+                {
+                  "name": "C&J",
+                  "sets": ["65x3", "70x3", "75x3", "87x3", "85x2", "90x2", "94x1"]
+                },
+                {
+                  "name": "Snatch Pull / Panda Pull",
+                  "sets": ["90(2x3)", "95(2x3)"]
+                },
+                {
+                  "name": "Accessories",
+                  "sets": ["Single leg calf raises 4x15-18"]
+                },
+                {
+                  "name": "Side Planks",
+                  "sets": ["3x1 minute"]
+                }
+              ]
+            }
+          ]
+        },
+        "veterans": {
+          "weekNumber": "Week 11",
+          "totalVolume": "",
+          "coachesNotes": ["Additional accessories not recommended"],
+          "athleteNotes": ["Thursday is the beginning of the competition taper"],
+          "days": [
+            {
+              "name": "Day 1",
+              "volume": "",
+              "exercises": [
+                {
+                  "name": "PS",
+                  "sets": ["60x3", "65x3", "70x3", "75x2", "80x2", "83(2x2)"]
+                },
+                {
+                  "name": "PC+PJ",
+                  "sets": ["65x3", "70x3", "75x3", "78(2x3)"]
+                },
+                {
+                  "name": "Front Squat",
+                  "sets": ["70x4", "75x4", "80x4", "85x4", "90x2"]
+                },
+                {
+                  "name": "Barbell Rows",
+                  "sets": ["5x5"]
+                },
+                {
+                  "name": "Reverse Plank + Side Plank",
+                  "sets": ["3x1 minute"]
+                }
+              ]
+            },
+            {
+              "name": "Day 2 (comp 2/27 or 2/28)",
+              "volume": "",
+              "exercises": [
+                {
+                  "name": "Snatch",
+                  "sets": ["55x3", "60x3", "65x3", "70x3", "75x3", "80x2", "85x1", "92(2x1)"]
+                },
+                {
+                  "name": "C&J",
+                  "sets": ["50x3", "55x3", "60x3", "65x3", "70x3", "75x2", "80x1", "85x1", "90(2x1)"]
+                },
+                {
+                  "name": "Back Squat",
+                  "sets": ["55x5", "60x4", "65x3", "70x3", "75x3", "80x3", "85x2", "90x2", "93x1", "only if competing on 2/28: 96x1"]
+                },
+                {
+                  "name": "Snatch Pull / Panda Pull",
+                  "sets": ["90(2x3)", "93(2x3)"]
+                },
+                {
+                  "name": "Clean Grip BN Press",
+                  "sets": ["5x5"]
+                },
+                {
+                  "name": "Weighted Planks",
+                  "sets": ["3x1 minute"]
+                }
+              ]
+            },
+            {
+              "name": "Day 2 (comp 3/1 or after)",
+              "volume": "",
+              "exercises": [
+                {
+                  "name": "Snatch",
+                  "sets": ["60x3", "65x3", "70x3", "75x3", "80x3", "85x3", "87(2x2)"]
+                },
+                {
+                  "name": "C&J",
+                  "sets": ["60x3", "65x3", "70x3", "75x3", "80x3", "85(2x2)"]
+                },
+                {
+                  "name": "Back Squat",
+                  "sets": ["55x5", "60x4", "65x3", "70x3", "75x3", "80x3", "85x3"]
+                },
+                {
+                  "name": "Snatch Pull / Panda Pull",
+                  "sets": ["90(2x3)", "93(2x3)"]
+                },
+                {
+                  "name": "Clean Grip BN Press",
+                  "sets": ["5x5"]
+                },
+                {
+                  "name": "Weighted Planks",
+                  "sets": ["3x1 minute"]
+                }
+              ]
+            },
+            {
+              "name": "Day 3 (comp 2/27 or 2/28)",
+              "volume": "",
+              "exercises": [
+                {
+                  "name": "Snatch + C&J",
+                  "sets": ["Doubles and singles up to 85% (about 15 – 18 each of snatches and C&Js)"]
+                },
+                {
+                  "name": "Back Squat",
+                  "sets": ["85(3x1)"]
+                },
+                {
+                  "name": "Abalakov Jump",
+                  "sets": ["4x10"]
+                },
+                {
+                  "name": "Weighted Planks",
+                  "sets": ["3x1 minute"]
+                }
+              ]
+            },
+            {
+              "name": "Day 3 (comp 3/1 or after)",
+              "volume": "",
+              "exercises": [
+                {
+                  "name": "Snatch",
+                  "sets": ["55x3", "60x3", "65x3", "70x3", "75x3", "80x2", "85x1", "92(2x1)"]
+                },
+                {
+                  "name": "C&J",
+                  "sets": ["50x3", "55x3", "60x3", "65x3", "70x3", "75x2", "80x1", "85x1", "90(2x1)"]
+                },
+                {
+                  "name": "Back Squat",
+                  "sets": ["55x5", "60x4", "65x3", "70x3", "75x3", "80x3", "85x2", "90x2", "93x1", "96x1"]
+                },
+                {
+                  "name": "Snatch Pull / Panda Pull",
+                  "sets": ["90(2x3)", "93(2x3)"]
+                },
+                {
+                  "name": "Weighted Planks",
+                  "sets": ["3x1 minute"]
+                }
+              ]
+            }
+          ]
+        }
+      }
     }
   }
 }
