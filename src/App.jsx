@@ -165,7 +165,18 @@ const WeightliftingProgram = () => {
           <div className="mt-2">
             <select 
               value={selectedWeek}
-              onChange={(e) => setSelectedWeek(e.target.value)}
+              onChange={(e) => {
+                const newSelectedWeek = e.target.value;
+                // Check if we need to adjust the selected day for the new week
+                if (programData) {
+                  const newWeekProgram = programData.weeks[newSelectedWeek].programs[programType];
+                  // If current selected day doesn't exist in new week's program, use the last day
+                  if (selectedDay >= newWeekProgram.days.length) {
+                    setSelectedDay(newWeekProgram.days.length - 1);
+                  }
+                }
+                setSelectedWeek(newSelectedWeek);
+              }}
               className="bg-red-600 text-white py-2 px-3 rounded-lg text-sm md:text-base w-full max-w-xs"
             >
               {availableWeeks.map((week) => (
@@ -195,7 +206,17 @@ const WeightliftingProgram = () => {
               className={`flex-1 py-3 px-4 rounded-lg text-sm md:text-base transition-colors ${
                 programType === 'rookies' ? 'bg-white text-red-700 font-bold' : 'bg-red-600'
               }`}
-              onClick={() => setProgramType('rookies')}
+              onClick={() => {
+                // Check if we need to adjust the selected day
+                if (programType !== 'rookies' && programData && selectedWeek) {
+                  const rookiesProgram = programData.weeks[selectedWeek].programs.rookies;
+                  // If current selected day doesn't exist in rookies program, use the last day
+                  if (selectedDay >= rookiesProgram.days.length) {
+                    setSelectedDay(rookiesProgram.days.length - 1);
+                  }
+                }
+                setProgramType('rookies');
+              }}
             >
               Rookies Program
             </button>
@@ -203,7 +224,17 @@ const WeightliftingProgram = () => {
               className={`flex-1 py-3 px-4 rounded-lg text-sm md:text-base transition-colors ${
                 programType === 'veterans' ? 'bg-white text-red-700 font-bold' : 'bg-red-600'
               }`}
-              onClick={() => setProgramType('veterans')}
+              onClick={() => {
+                // Check if we need to adjust the selected day
+                if (programType !== 'veterans' && programData && selectedWeek) {
+                  const veteransProgram = programData.weeks[selectedWeek].programs.veterans;
+                  // If current selected day doesn't exist in veterans program, use the last day
+                  if (selectedDay >= veteransProgram.days.length) {
+                    setSelectedDay(veteransProgram.days.length - 1);
+                  }
+                }
+                setProgramType('veterans');
+              }}
             >
               Veterans Program
             </button>
