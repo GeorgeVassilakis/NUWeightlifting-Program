@@ -1510,6 +1510,215 @@
           ]
         }
       }
+    },
+    "0223": {
+      "meta": {
+        "weekOf": "2/23",
+        "weekNumber": "Meet Week"
+      },
+      "programs": {
+        "veterans": {
+          "weekNumber": "Meet Week",
+          "totalVolume": "",
+          "coachesNotes": [
+            "Workouts are named based on how many days it is before your session.",
+            "The Day -1 workout (i.e., the day before your session) is required.",
+            "Choose at 2-3 additional workouts based on convenience.",
+            "If possible, train at the same time as your meet session.",
+            "If you took Sunday off, I recommend you train on Monday.",
+            "No caffeine until you start your snatch warmup in your session"
+          ],
+          "athleteNotes": [
+            "Each day at the end of the workout, add (time permitting):",
+            "Tempo Snatch bar(5x3)",
+            "Tall clean + Jerk bar(5x3)"
+          ],
+          "days": [
+            {
+              "name": "Day -5",
+              "volume": "",
+              "exercises": [
+                {
+                  "name": "Snatch",
+                  "sets": ["60x3", "65x3", "70x3", "75x3", "80x2", "85x1"]
+                },
+                {
+                  "name": "C&J",
+                  "sets": ["60x3", "65x3", "70x3", "75x3", "80x2", "85x1"]
+                },
+                {
+                  "name": "Back Squat",
+                  "sets": ["85(3x1)"]
+                },
+                {
+                  "name": "Weighted Planks",
+                  "sets": ["3x1 minute"]
+                }
+              ]
+            },
+            {
+              "name": "Day -4",
+              "volume": "",
+              "exercises": [
+                {
+                  "name": "Snatch",
+                  "sets": ["55x3", "60x3", "65x3", "70(2x3)", "75x3"]
+                },
+                {
+                  "name": "C&J",
+                  "sets": ["55x3", "60x3", "65(2x3)", "70x3", "75x3"]
+                },
+                {
+                  "name": "Front Squat",
+                  "sets": ["85(3x1)"]
+                },
+                {
+                  "name": "Single leg Abalakov Jump",
+                  "sets": ["3x10"]
+                },
+                {
+                  "name": "Planks",
+                  "sets": ["3x1 minute"]
+                }
+              ]
+            },
+            {
+              "name": "Day -3",
+              "volume": "",
+              "exercises": [
+                {
+                  "name": "Snatch",
+                  "sets": ["55x3", "60x3", "65(2x3)", "70(2x3)"]
+                },
+                {
+                  "name": "C&J",
+                  "sets": ["55x3", "60x3", "65(2x3)", "70(2x3)"]
+                },
+                {
+                  "name": "Front Squat",
+                  "sets": ["80(3x2)"]
+                },
+                {
+                  "name": "Reverse Planks + Side Planks",
+                  "sets": ["3x1 minute"]
+                }
+              ]
+            },
+            {
+              "name": "Day -2",
+              "volume": "",
+              "exercises": [
+                {
+                  "name": "Snatch",
+                  "sets": ["60(2x3)", "65(3x3)"]
+                },
+                {
+                  "name": "C&J",
+                  "sets": ["60(3x3)", "65(2x3)"]
+                },
+                {
+                  "name": "Back Squat",
+                  "sets": ["80(3x1)"]
+                },
+                {
+                  "name": "Abalakov Jump",
+                  "sets": ["3x8"]
+                },
+                {
+                  "name": "Reverse Planks",
+                  "sets": ["3x1 minute"]
+                }
+              ]
+            },
+            {
+              "name": "Day -1 (Same hour as your session)",
+              "volume": "",
+              "exercises": [
+                {
+                  "name": "Snatch",
+                  "sets": ["50(2x3)", "55(3x3)"]
+                },
+                {
+                  "name": "C&J",
+                  "sets": ["50(3x3)", "55(2x3)"]
+                },
+                {
+                  "name": "Back Squat",
+                  "sets": ["80(3x1)"]
+                }
+              ]
+            }
+          ]
+        },
+        "rookies": {
+          "weekNumber": "Post maxout week",
+          "totalVolume": "",
+          "coachesNotes": [
+            "Choose your own exercises and rep / set scheme, but nothing over 70%.",
+            "I recommend practicing tall movements.",
+            "However, you may attempt to max your back squat or front squat (not both) one day this week if you feel really good (paying particular attention to how your lower back and knees feel). Warm up with doubles at most."
+          ],
+          "athleteNotes": [
+            "These are placeholder percentages - please refer to coaches' notes for actual guidance"
+          ],
+          "days": [
+            {
+              "name": "Day 1",
+              "volume": "",
+              "exercises": [
+                {
+                  "name": "Snatch",
+                  "sets": ["50%", "55%", "60%", "65%", "70%", "75%", "80%", "85%", "90%", "95%", "100%"]
+                },
+                {
+                  "name": "C&J",
+                  "sets": ["50%", "55%", "60%", "65%", "70%", "75%", "80%", "85%", "90%", "95%", "100%"]
+                },
+                {
+                  "name": "Back/Front Squat",
+                  "sets": ["50%", "55%", "60%", "65%", "70%", "75%", "80%", "85%", "90%", "95%", "100%"]
+                }
+              ]
+            },
+            {
+              "name": "Day 2",
+              "volume": "",
+              "exercises": [
+                {
+                  "name": "Snatch",
+                  "sets": ["50%", "55%", "60%", "65%", "70%", "75%", "80%", "85%", "90%", "95%", "100%"]
+                },
+                {
+                  "name": "C&J",
+                  "sets": ["50%", "55%", "60%", "65%", "70%", "75%", "80%", "85%", "90%", "95%", "100%"]
+                },
+                {
+                  "name": "Back/Front Squat",
+                  "sets": ["50%", "55%", "60%", "65%", "70%", "75%", "80%", "85%", "90%", "95%", "100%"]
+                }
+              ]
+            },
+            {
+              "name": "Day 3",
+              "volume": "",
+              "exercises": [
+                {
+                  "name": "Snatch",
+                  "sets": ["50%", "55%", "60%", "65%", "70%", "75%", "80%", "85%", "90%", "95%", "100%"]
+                },
+                {
+                  "name": "C&J",
+                  "sets": ["50%", "55%", "60%", "65%", "70%", "75%", "80%", "85%", "90%", "95%", "100%"]
+                },
+                {
+                  "name": "Back/Front Squat",
+                  "sets": ["50%", "55%", "60%", "65%", "70%", "75%", "80%", "85%", "90%", "95%", "100%"]
+                }
+              ]
+            }
+          ]
+        }
+      }
     }
   }
 }
